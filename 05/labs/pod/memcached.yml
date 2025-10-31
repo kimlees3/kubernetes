@@ -1,0 +1,12 @@
+---
+kind: Pod
+apiVersion: v1
+metadata:
+  name: mercached
+spec: 
+  containers:
+    - name: memcached123
+      image: memcached
+      ports:
+        - containerPort: 11211
+        
